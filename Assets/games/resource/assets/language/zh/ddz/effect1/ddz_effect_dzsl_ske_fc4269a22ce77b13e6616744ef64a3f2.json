@@ -1,0 +1,796 @@
+{
+    "frameRate": 24,
+    "name": "ddz_effect_dzsl",
+    "version": "5.5",
+    "compatibleVersion": "5.5",
+    "armature": [
+        {
+            "type": "Armature",
+            "frameRate": 24,
+            "name": "ddz_effect_dzsl",
+            "aabb": {
+                "x": -201.5,
+                "y": -200.28,
+                "width": 403,
+                "height": 300
+            },
+            "bone": [
+                {
+                    "name": "root"
+                },
+                {
+                    "name": "序列",
+                    "parent": "root",
+                    "transform": {
+                        "y": -50.2801
+                    }
+                },
+                {
+                    "name": "地主头像",
+                    "parent": "root",
+                    "transform": {
+                        "y": -69.95
+                    }
+                },
+                {
+                    "name": "条幅",
+                    "parent": "root"
+                },
+                {
+                    "name": "地主胜利",
+                    "parent": "root",
+                    "transform": {
+                        "y": -7.4251
+                    }
+                },
+                {
+                    "name": "地主胜利1",
+                    "parent": "root",
+                    "transform": {
+                        "y": -7.4251
+                    }
+                },
+                {
+                    "name": "农民胜利",
+                    "parent": "root",
+                    "transform": {
+                        "y": -7.8431
+                    }
+                },
+                {
+                    "name": "农民头像",
+                    "parent": "root",
+                    "transform": {
+                        "x": -10.7843,
+                        "y": -85.7353
+                    }
+                },
+                {
+                    "name": "农民胜利1",
+                    "parent": "root",
+                    "transform": {
+                        "y": -7.8431
+                    }
+                }
+            ],
+            "slot": [
+                {
+                    "name": "序列",
+                    "parent": "序列"
+                },
+                {
+                    "name": "地主头像",
+                    "parent": "地主头像"
+                },
+                {
+                    "name": "条幅",
+                    "parent": "条幅"
+                },
+                {
+                    "name": "地主胜利",
+                    "parent": "地主胜利"
+                },
+                {
+                    "blendMode": "add",
+                    "name": "地主胜利1",
+                    "parent": "地主胜利1"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "农民胜利",
+                    "parent": "农民胜利"
+                },
+                {
+                    "displayIndex": -1,
+                    "name": "农民头像",
+                    "parent": "农民头像"
+                },
+                {
+                    "blendMode": "add",
+                    "displayIndex": -1,
+                    "name": "农民胜利1",
+                    "parent": "农民胜利1"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "条幅",
+                            "display": [
+                                {
+                                    "name": "绸带"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民胜利1",
+                            "display": [
+                                {
+                                    "name": "农民胜利"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利",
+                            "display": [
+                                {
+                                    "name": "地主胜利"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主头像",
+                            "display": [
+                                {
+                                    "name": "地主头像_00000"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "序列",
+                            "display": [
+                                {
+                                    "type": "armature",
+                                    "name": "glow"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民头像",
+                            "display": [
+                                {
+                                    "name": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民胜利",
+                            "display": [
+                                {
+                                    "name": "农民胜利"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利1",
+                            "display": [
+                                {
+                                    "name": "地主胜利"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 16,
+                    "name": "landlordwin",
+                    "bone": [
+                        {
+                            "name": "序列",
+                            "translateFrame": [
+                                {
+                                    "duration": 16,
+                                    "x": -5.88,
+                                    "y": -13.72
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主头像",
+                            "translateFrame": [
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 10.19
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 10.19
+                                },
+                                {
+                                    "duration": 10
+                                }
+                            ]
+                        },
+                        {
+                            "name": "条幅",
+                            "scaleFrame": [
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 0.01
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 1.1
+                                },
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 0.9
+                                },
+                                {
+                                    "duration": 5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利",
+                            "scaleFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 3,
+                                    "y": 3
+                                },
+                                {
+                                    "duration": 11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利1",
+                            "scaleFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 3,
+                                    "y": 3
+                                },
+                                {
+                                    "duration": 11,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "x": 1.3,
+                                    "y": 1.3
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "序列",
+                            "displayFrame": [
+                                {
+                                    "duration": 4,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 12,
+                                    "actions": [
+                                        {
+                                            "gotoAndPlay": "glow"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主头像",
+                            "colorFrame": [
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 13
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利",
+                            "colorFrame": [
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利1",
+                            "colorFrame": [
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 11,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "duration": 16,
+                    "name": "farmerwin",
+                    "bone": [
+                        {
+                            "name": "序列",
+                            "translateFrame": [
+                                {
+                                    "duration": 16,
+                                    "x": -5.88,
+                                    "y": -13.72
+                                }
+                            ]
+                        },
+                        {
+                            "name": "条幅",
+                            "scaleFrame": [
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 0.01
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 1.1
+                                },
+                                {
+                                    "duration": 4,
+                                    "tweenEasing": 0,
+                                    "x": 0.9
+                                },
+                                {
+                                    "duration": 5
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民胜利",
+                            "scaleFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 3,
+                                    "y": 3
+                                },
+                                {
+                                    "duration": 11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民头像",
+                            "translateFrame": [
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 10.19
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "y": 32.74
+                                },
+                                {
+                                    "duration": 10
+                                }
+                            ],
+                            "scaleFrame": [
+                                {
+                                    "duration": 16,
+                                    "x": 0.9,
+                                    "y": 0.9
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民胜利1",
+                            "scaleFrame": [
+                                {
+                                    "duration": 2
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "x": 3,
+                                    "y": 3
+                                },
+                                {
+                                    "duration": 11,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "x": 1.3,
+                                    "y": 1.3
+                                }
+                            ]
+                        }
+                    ],
+                    "slot": [
+                        {
+                            "name": "序列",
+                            "displayFrame": [
+                                {
+                                    "duration": 4,
+                                    "value": -1
+                                },
+                                {
+                                    "duration": 12
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主头像",
+                            "displayFrame": [
+                                {
+                                    "duration": 16,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利",
+                            "displayFrame": [
+                                {
+                                    "duration": 16,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "地主胜利1",
+                            "displayFrame": [
+                                {
+                                    "duration": 16,
+                                    "value": -1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民胜利",
+                            "displayFrame": [
+                                {
+                                    "duration": 16
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 11
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民头像",
+                            "displayFrame": [
+                                {
+                                    "duration": 16
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 13
+                                }
+                            ]
+                        },
+                        {
+                            "name": "农民胜利1",
+                            "displayFrame": [
+                                {
+                                    "duration": 16
+                                }
+                            ],
+                            "colorFrame": [
+                                {
+                                    "duration": 2,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 3,
+                                    "tweenEasing": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                },
+                                {
+                                    "duration": 11,
+                                    "tweenEasing": 0
+                                },
+                                {
+                                    "duration": 0,
+                                    "value": {
+                                        "aM": 0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "zOrder": {
+                        "frame": [
+                            {
+                                "duration": 16,
+                                "zOrder": [
+                                    6,
+                                    -5
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "landlordwin"
+                }
+            ]
+        },
+        {
+            "type": "Sheet",
+            "frameRate": 12,
+            "name": "glow",
+            "aabb": {
+                "x": -150,
+                "y": -150,
+                "width": 300,
+                "height": 300
+            },
+            "bone": [
+                {
+                    "name": "root"
+                }
+            ],
+            "slot": [
+                {
+                    "displayIndex": 13,
+                    "name": "sheetSlot",
+                    "parent": "root"
+                }
+            ],
+            "skin": [
+                {
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "display": [
+                                {
+                                    "name": "glow_00000"
+                                },
+                                {
+                                    "name": "glow_00001"
+                                },
+                                {
+                                    "name": "glow_00002"
+                                },
+                                {
+                                    "name": "glow_00003"
+                                },
+                                {
+                                    "name": "glow_00004"
+                                },
+                                {
+                                    "name": "glow_00005"
+                                },
+                                {
+                                    "name": "glow_00006"
+                                },
+                                {
+                                    "name": "glow_00007"
+                                },
+                                {
+                                    "name": "glow_00008"
+                                },
+                                {
+                                    "name": "glow_00009"
+                                },
+                                {
+                                    "name": "glow_00010"
+                                },
+                                {
+                                    "name": "glow_00011"
+                                },
+                                {
+                                    "name": "glow_00012"
+                                },
+                                {
+                                    "name": "glow_00013"
+                                },
+                                {
+                                    "name": "glow_00014"
+                                },
+                                {
+                                    "name": "glow_00015"
+                                },
+                                {
+                                    "name": "glow_00016"
+                                },
+                                {
+                                    "name": "glow_00017"
+                                },
+                                {
+                                    "name": "glow_00018"
+                                },
+                                {
+                                    "name": "glow_00019"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "animation": [
+                {
+                    "duration": 20,
+                    "playTimes": 0,
+                    "name": "glow",
+                    "slot": [
+                        {
+                            "name": "sheetSlot",
+                            "displayFrame": [
+                                {},
+                                {
+                                    "value": 1
+                                },
+                                {
+                                    "value": 2
+                                },
+                                {
+                                    "value": 3
+                                },
+                                {
+                                    "value": 4
+                                },
+                                {
+                                    "value": 5
+                                },
+                                {
+                                    "value": 6
+                                },
+                                {
+                                    "value": 7
+                                },
+                                {
+                                    "value": 8
+                                },
+                                {
+                                    "value": 9
+                                },
+                                {
+                                    "value": 10
+                                },
+                                {
+                                    "value": 11
+                                },
+                                {
+                                    "value": 12
+                                },
+                                {
+                                    "value": 13
+                                },
+                                {
+                                    "value": 14
+                                },
+                                {
+                                    "value": 15
+                                },
+                                {
+                                    "value": 16
+                                },
+                                {
+                                    "value": 17
+                                },
+                                {
+                                    "value": 18
+                                },
+                                {
+                                    "value": 19
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "defaultActions": [
+                {
+                    "gotoAndPlay": "glow"
+                }
+            ]
+        }
+    ]
+}

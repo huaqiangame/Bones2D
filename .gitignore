@@ -3,6 +3,7 @@ Temp
 *.csproj
 *.sln
 *.userprefs
+*.js
 obj
 Assets/AssetStoreTools
 AssetStoreTools.meta
